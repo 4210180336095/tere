@@ -1,0 +1,36 @@
+@media screen and (max-width:1024px) {
+
+    .header .nav-item{
+        display: none;
+    }
+
+    .header .nav .menubar{
+        display: block;
+        text-align: right;
+    }
+    
+    .content1{
+        width: 50%;
+    } 
+    .content2{
+        width: 60%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+    .content2 .text{
+        width: 50%;
+    }
+    .content2 .input{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .content2 .input .input-wrapper{
+        width: 50%;
+    }
+    .content2 .input .btn-wrapper{
+        width: 50%;
+    }
+
+}
